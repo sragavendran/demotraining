@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build From GITHUB') {
+        stage('Build From GITHUB V2') {
             steps {
                 echo 'Building..'
             }
