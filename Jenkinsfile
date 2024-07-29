@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build From GITHUB') {
             steps {
-                echo 'Building..'
+                echo 'Building from Quality..'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing.. From GITHUB'
+                echo 'Testing.. from Quality'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying.... From GITHUB'
+                echo 'Deploying.... from Quality'
             }
         }
     }
